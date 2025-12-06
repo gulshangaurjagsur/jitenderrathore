@@ -8,6 +8,11 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("header-placeholder").innerHTML = header;
     document.getElementById("footer-placeholder").innerHTML = footer;
 
+    // ⭐ HEADER LOAD HONE KE BAAD MOBILE MENU INIT
+    if (typeof initMobileMenu === "function") {
+      initMobileMenu();
+    }
+
     setActiveMenu();
 
     if (typeof AOS !== 'undefined') {
