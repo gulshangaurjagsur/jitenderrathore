@@ -1317,3 +1317,6 @@ section,
   .hero .hero-content h1,
   .hero .hero-content p.lead { color: #fff; text-shadow: none; }
 }
+body.mobile-nav-active #navmenu {
+  display: block !important;
+}
