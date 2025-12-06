@@ -1359,3 +1359,6 @@ body.mobile-nav-active #navmenu {
   background-position: 0; /* thoda neeche shift */
   }
 }
+.header, .footer{
+  background: linear-gradient(to bottom, #dff4f0, #ffffff);
+}
